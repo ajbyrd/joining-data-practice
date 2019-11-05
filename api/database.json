@@ -1,39 +1,19 @@
 {
-    "Employees": [
+    "departments": [
         {
             "id": 1,
-            "name": "Adam",
-            "depId": 3,
-            "compId": 2
+            "department": "Onboarding"
         },
         {
             "id": 2,
-            "name": "Elizabeth",
-            "depId": 1,
-            "compId": 1
+            "department": "Sales"
         },
         {
             "id": 3,
-            "name": "David",
-            "depId": 2,
-            "compId": 3
+            "department": "AML"
         }
     ],
-    "Departments": [
-        {
-            "id": 1,
-            "depName": "Onboarding"
-        },
-        {
-            "id": 2,
-            "depName": "Sales"
-        },
-        {
-            "id": 3,
-            "depName": "AML"
-        }
-    ],
-    "Computers": [
+    "computers": [
         {
             "id": 1,
             "computer": "2015 Macbook Pro"
@@ -45,6 +25,26 @@
         {
             "id": 3,
             "computer": "2019 Macbook Air"
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "name": "Adam",
+            "departmentId": 3,
+            "computerId": 2
+        },
+        {
+            "id": 2,
+            "name": "Elizabeth",
+            "departmentId": 1,
+            "computerId": 1
+        },
+        {
+            "id": 3,
+            "name": "David",
+            "departmentId": 2,
+            "computerId": 3
         }
     ]
 }
